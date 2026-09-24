@@ -1,0 +1,29 @@
+*{box-sizing:border-box}
+body{margin:0;background:#fff8ef;color:#5a2d20;font-family:Arial,Helvetica,sans-serif}
+.header{height:78px;padding:7px 6%;display:flex;align-items:center;justify-content:space-between;background:#fff8ef;position:sticky;top:0;z-index:10;box-shadow:0 3px 16px #5a2d2014}
+.brand img{width:72px;height:64px;object-fit:cover;border-radius:50%}
+nav{display:flex;gap:28px}nav a{color:#5a2d20;text-decoration:none;font-weight:700}
+.cart-button{border:0;background:#fff;border-radius:999px;padding:10px 15px;cursor:pointer}.cart-button span{background:#d92538;color:#fff;border-radius:50%;padding:3px 7px}
+.hero{min-height:590px;padding:70px 8%;display:grid;grid-template-columns:1fr 1fr;align-items:center;background:linear-gradient(135deg,#ffe2e4,#fff8ef)}
+.hero h1{font-size:clamp(52px,7vw,90px);line-height:.9;margin:10px 0}.hero h1 span{color:#d92538}
+.hero-copy>p:not(.eyebrow){font-size:18px;line-height:1.7;max-width:520px}.eyebrow{color:#d92538;font-weight:900;letter-spacing:2px}
+.main-button{border:0;background:#d92538;color:#fff;padding:15px 24px;border-radius:13px;font-weight:900;cursor:pointer;box-shadow:0 10px 25px #d9253830}.full{width:100%}
+.hero-product{width:min(500px,92%);height:450px;object-fit:cover;border-radius:30px;justify-self:center;box-shadow:0 20px 45px #5a2d2020}
+.section{padding:85px 8%}.section-title{text-align:center;margin-bottom:35px}.section h2,.about h2,.contact h2{font-size:45px;margin:8px 0}
+.product-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:22px}.product{background:#fff;border-radius:22px;overflow:hidden;box-shadow:0 12px 30px #5a2d2010}
+.product img{width:100%;height:235px;object-fit:cover}.product-info{padding:17px}.product-info h3{margin:0 0 8px;font-size:21px}.price{color:#d92538;font-weight:900;font-size:20px;margin-bottom:12px}
+.add{width:100%;padding:11px;border:1px solid #ef8d96;border-radius:10px;background:#fff0f1;color:#d92538;font-weight:900;cursor:pointer}
+.add:hover{background:#d92538;color:#fff}
+.about{display:grid;grid-template-columns:1fr 1fr;gap:50px;align-items:center;background:#ffeded}.about img{width:100%;max-height:430px;object-fit:cover;border-radius:25px}.about p{line-height:1.8}
+.stats{display:flex;gap:14px;margin-top:25px}.stats div{background:#fff;padding:16px 22px;border-radius:16px;text-align:center}.stats b{display:block;color:#d92538;font-size:22px}.stats small{color:#5a2d20}
+.contact{text-align:center}.contact a{color:#d92538;font-weight:900;text-decoration:none}
+.overlay{position:fixed;inset:0;background:#2d1515aa;z-index:50;display:flex;justify-content:flex-end}.hidden{display:none}
+.drawer{height:100%;width:min(480px,100%);background:#fff8ef;padding:30px;overflow:auto}.close{float:right;border:0;background:none;font-size:35px;color:#5a2d20;cursor:pointer}
+.cart-item{display:grid;grid-template-columns:70px 1fr auto;gap:10px;align-items:center;background:#fff;padding:10px;border-radius:14px;margin:10px 0}.cart-item img{width:70px;height:65px;object-fit:cover;border-radius:8px}
+.qty{display:flex;gap:7px;align-items:center}.qty button{border:0;background:#ffe0e2;border-radius:6px;padding:4px 8px;cursor:pointer}
+.remove{border:0;background:none;cursor:pointer;color:#a22}.total{display:flex;justify-content:space-between;border-top:1px solid #ead3cb;padding:18px 0;margin-top:18px;font-size:21px}
+.checkout label{display:block;font-weight:700;margin:15px 0}.checkout input,.checkout select{display:block;width:100%;padding:13px;margin-top:6px;border:1px solid #e0c9c0;border-radius:11px;background:#fff;font:inherit}
+.success{margin:auto;background:#fff8ef;border-radius:28px;padding:50px;text-align:center;max-width:430px}.check{width:75px;height:75px;border-radius:50%;background:#d92538;color:#fff;display:grid;place-items:center;font-size:45px;margin:auto}.success h2{font-size:45px}
+footer{padding:35px;background:#5a2d20;color:#fff;text-align:center}
+@media(max-width:900px){nav{display:none}.hero,.about{grid-template-columns:1fr}.hero-product{margin-top:35px}.product-grid{grid-template-columns:repeat(2,1fr)}}
+@media(max-width:560px){.section,.hero{padding:55px 5%}.product-grid{grid-template-columns:1fr}.hero-product{height:350px}.stats{flex-wrap:wrap}}

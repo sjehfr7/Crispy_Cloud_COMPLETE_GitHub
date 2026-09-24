@@ -1,0 +1,14 @@
+UPLOAD ALL OF THESE:
+index.html
+styles.css
+script.js
+README.md
+UPLOAD-CHECKLIST.txt
+assets/logo.jpg
+assets/strawberry-cream.jpg
+assets/chocolate-cream.jpg
+assets/matcha-cream.jpg
+assets/creme-brulee.jpg
+assets/mango-cream.jpg
+assets/yema-cream.jpg
+assets/ube-cream.jpg
